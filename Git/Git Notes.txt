@@ -1,0 +1,20 @@
+1. in terminal, navigate to the folder you want to use
+2. git init (just do this once per project)
+3. make some files and put them in the directory
+4. git add . (the dot says to add all the files in the directory and below)
+    Or use: git add README.md (adds just one file) (this stages the files)
+5. git commit -m "commit message" 
+    (summarize what changes you made, be specific in present tense; you are committing these files to a certain version)
+6. change your file and save it in sublime text
+7. git status (check to see if you have made changes since the last commit)
+8. git add <filename>
+9. git commit (creates a commit(SAVE GAME))
+10. git log: Displays the commits along with messages.
+11. go to github and make a new repository on github
+12. link github repository to your computer's local repository: 
+    git remote add origin https://github.com/USERNAME/REPO_NAME.git
+    git push -u origin master
+13. git push origin master
+14. git push
+15. git pull origin master
+16. git pull 
